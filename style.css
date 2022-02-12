@@ -1,9 +1,10 @@
 #gameContainer {
-    height:480px;
-    width: 840px;
+    height:calc(90vw*480/840);
+    width: 90vw;
     border: solid;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    margin: auto;
 }
 
 .pixel{
@@ -16,3 +17,7 @@
     background-color: #43523d;
 }
 
+#footer {
+    text-align: center;
+    margin-top: 10px;
+}

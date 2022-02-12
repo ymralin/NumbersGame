@@ -314,6 +314,9 @@ function game(){
                 flipTile([2,2])
                 playClickSound()
                 break;  
+            case " ":
+                shuffle()
+                break
         }
     })
 
@@ -372,9 +375,6 @@ function game(){
     }
 
     shuffle()
-
-    updateNums()
-    updateBoard()
     }
     
     
